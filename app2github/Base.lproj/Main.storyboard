@@ -101,7 +101,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGM-AL-86Y">
-                                <rect key="frame" x="64" y="199" width="247" height="50"/>
+                                <rect key="frame" x="64" y="237" width="247" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <state key="normal" title="見與不見" backgroundImage="button2">
@@ -109,6 +109,28 @@
                                 </state>
                                 <connections>
                                     <segue destination="kY0-Lr-hxD" kind="show" id="6FD-eK-GKx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeZ-tf-Rdz">
+                                <rect key="frame" x="64" y="305" width="247" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <state key="normal" title="那一世" backgroundImage="button2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TtH-Ds-ESL" kind="show" id="QS5-2j-4m6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iia-UX-C0L">
+                                <rect key="frame" x="64" y="379" width="247" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <state key="normal" title="不負如來不負卿" backgroundImage="button2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wda-bw-ib3" kind="show" id="B0J-GB-3oD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -136,13 +158,31 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="你見，或者不見我 我就在那裡 不悲不喜  你念，或者不念我 情就在那裡 不來不去  你愛，或者不愛我 愛就在那裡 不增不減  你跟，或者不跟我 我的手就在你手裡 不捨不棄  來我的懷裡 或者 讓我住進你的心裡 默然相愛 寂靜歡喜" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuk-dg-BpD">
-                                <rect key="frame" x="112" y="194" width="151" height="435"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QKU-YL-gDf">
+                                <rect key="frame" x="38" y="195" width="300" height="433"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <string key="text"> 你見，或者不見我
+我就在那裡
+不悲不喜
+
+你念，或者不念我
+情就在那裡
+不來不去 
+你愛，或者不愛我
+愛就在那裡
+不增不減
+
+你跟，或者不跟我
+我的手就在你手裡
+不捨不棄 
+來我的懷裡
+或者
+讓我住進你的心裡 
+默然相愛
+寂靜歡喜  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -152,7 +192,80 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJZ-iC-Zes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2069.5999999999999" y="73.313343328335833"/>
+            <point key="canvasLocation" x="2174" y="-1013"/>
+        </scene>
+        <!--不負如來不負卿-->
+        <scene sceneID="oAs-JA-mca">
+            <objects>
+                <viewController id="wda-bw-ib3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wk5-Uj-6LX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Khi-wg-gWe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c05-bl-LNk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="gJC-S2-dZI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bFM-XW-csk">
+                                <rect key="frame" x="38" y="195" width="300" height="433"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> 曾慮多情損梵行，  入山又恐別傾城。
+ 世間安得雙全法，  不負如來不負卿！ </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="不負如來不負卿" id="8xp-Q5-dsm">
+                        <barButtonItem key="backBarButtonItem" title="倉央嘉措作品" id="HTS-Kn-h2s"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHS-wQ-lbp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2174" y="357"/>
+        </scene>
+        <!--那一天 那一月 那一年 那一世-->
+        <scene sceneID="ZmK-6H-Jh1">
+            <objects>
+                <viewController id="TtH-Ds-ESL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vru-77-7WR"/>
+                        <viewControllerLayoutGuide type="bottom" id="eXQ-hL-SrU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="to4-eI-SlU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="1P2-1G-ZVE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oVq-2T-upO">
+                                <rect key="frame" x="39" y="196" width="298" height="432"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> 那一天， 我閉目在經殿的香霧中， 驀然聽見妳誦經中的真言；
+ 那一月， 我搖動所有的經筒， 不為超度， 只為觸摸妳的指尖；
+ 那一年， 磕長頭匍匐在山路， 不為覲見， 只為貼著妳的溫暖；
+ 那一世， 轉山轉水轉佛塔， 不為修來世， 只為途中與妳相見。 
+那一天，那一月，那一年，那一世  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="那一天 那一月 那一年 那一世" id="gry-Mx-a17">
+                        <barButtonItem key="backBarButtonItem" title="倉央嘉措作品" id="Lek-ny-tdZ"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PHs-es-ubf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2174" y="-326"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PBs-Vk-EDx">
